@@ -28,10 +28,11 @@ body {
 ========================= */
 .container {
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 15px;
   max-width: 900px;
   
 }
+
 
 .resume {
   margin: 50px auto;
@@ -164,7 +165,8 @@ body {
    ADDITIONAL INFO
 ========================= */
 .additional-info__header {
-  padding-left: 40px;
+  padding-left: 280px;
+  color: #5c5c62;
 }
 
 .additional-info {
@@ -209,10 +211,4 @@ hr {
 
 
 
-.container {
-  width: 100%;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 20px;
-  overflow: hidden;
-}
+
