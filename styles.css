@@ -43,7 +43,7 @@ body {
   background-color: #f5f5f5;
 }
 
-.resume__block {
+.resume-block {
   padding-bottom: 30px;
   margin-bottom: 15px;
   background-color: darkcyan;
@@ -60,19 +60,19 @@ body {
 /* =========================
    HEADER
 ========================= */
-.header__top {
+.header-top {
   display: flex;
   align-items: center;
   gap: 20px;
   margin-bottom: 20px;
 }
 
-.header__photo {
+.header-photo {
   width: 120px;
   height: 120px;
 }
 
-.contact-info__avatar {
+.contact-info-avatar {
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -83,11 +83,11 @@ body {
 /* =========================
    TEXT (HEADER)
 ========================= */
-.contact-info__header {
+.contact-info-header {
   color: var(--primary-text-color);
 }
 
-.contact-info__sub-header {
+.contact-info-sub-header {
   color: var(--secondary-text-color);
   margin-bottom: 10px;
 }
@@ -95,7 +95,7 @@ body {
 /* =========================
    CONTACT BLOCKS
 ========================= */
-.contact-info__block {
+.contact-info-block {
   display: flex;
   flex-direction: column;
 }
@@ -103,23 +103,23 @@ body {
 /* =========================
    CONTACT LINKS
 ========================= */
-.contact-info__item {
+.contact-info-item {
   margin-bottom: 10px;
   line-height: 1.4;
 }
 
-.contact-info__item strong {
+.contact-info-item strong {
   font-weight: 700;
   color: var(--primary-text-color);
 }
 
-.contact-info__item a {
+.contact-info-item a {
   color: var(--secondary-text-color);
   text-decoration: none;
-  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
-.contact-info__item a:hover {
+.contact-info-item a:hover {
   color: var(--text-decoration-color);
   text-decoration: underline;
 }
@@ -132,17 +132,18 @@ body {
   gap: 20px;
 }
 
-.intro__icon-wrapper {
-  width: 30px;
+.intro-icon-wrapper {
+  width: 60px;
+  height: 60px;
   display: flex;
   justify-content: center;
 }
 
-.intro__icon path {
+.intro-icon path {
   fill: var(--text-decoration-color);
 }
 
-.intro_text {
+.intro-text {
   color: var(--secondary-text-color);
   text-align: justify;
 }
@@ -150,20 +151,17 @@ body {
 /* =========================
    SKILLS / ICON FIXES
 ========================= */
-.contact-info__item-icon {
+.contact-info-item-icon {
   width: 16px;
   height: 16px;
 }
 
-.intro__icon-wrapper {
-  width: 60px;
-  height: 60px;
-}
+
 
 /* =========================
    ADDITIONAL INFO
 ========================= */
-.additional-info__header {
+.additional-info-header {
   padding-left: 280px;
   color: #5c5c62;
 }
@@ -174,28 +172,28 @@ body {
   padding-left: 40px;
 }
 
-.additional-info__education,
-.additional-info__languages {
+.additional-info-education,
+.additional-info-languages {
   flex: 1;
 }
 
 /* =========================
    EXPERIENCE
 ========================= */
-.experiences__company-project-responsibilities {
+.experiences-company-project-responsibilities {
   padding-left: 20px;
 }
 
 /* =========================
    RESPONSIVE
 ========================= */
-@media screen and (max-width: 576px) {
+@media screen and (width <=  576px) {
   .fh {
     flex-direction: column;
     align-items: center;
   }
 
-  .header__top {
+  .header-top {
     flex-direction: column;
     text-align: center;
   }
